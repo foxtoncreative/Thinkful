@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E4C5DBF19D0B60F00891690 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C5DBE19D0B60F00891690 /* main.swift */; };
+		4E4C5DC819D0B66F00891690 /* TurboCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C5DC719D0B66F00891690 /* TurboCar.swift */; };
+		4E4C5DCA19D0B6A900891690 /* HybridCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C5DC919D0B6A900891690 /* HybridCar.swift */; };
+		4E4C5DCC19D0B74200891690 /* PickupTruck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C5DCB19D0B74200891690 /* PickupTruck.swift */; };
+		4E4C5DCE19D0B95000891690 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E4C5DCD19D0B95000891690 /* Car.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4E4C5DB919D0B60F00891690 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4E4C5DBB19D0B60F00891690 /* Cars */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Cars; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E4C5DBE19D0B60F00891690 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4E4C5DC719D0B66F00891690 /* TurboCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurboCar.swift; sourceTree = "<group>"; };
+		4E4C5DC919D0B6A900891690 /* HybridCar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HybridCar.swift; sourceTree = "<group>"; };
+		4E4C5DCB19D0B74200891690 /* PickupTruck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickupTruck.swift; sourceTree = "<group>"; };
+		4E4C5DCD19D0B95000891690 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E4C5DB819D0B60F00891690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E4C5DB219D0B60F00891690 = {
+			isa = PBXGroup;
+			children = (
+				4E4C5DBD19D0B60F00891690 /* Cars */,
+				4E4C5DBC19D0B60F00891690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E4C5DBC19D0B60F00891690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E4C5DBB19D0B60F00891690 /* Cars */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E4C5DBD19D0B60F00891690 /* Cars */ = {
+			isa = PBXGroup;
+			children = (
+				4E4C5DCD19D0B95000891690 /* Car.swift */,
+				4E4C5DBE19D0B60F00891690 /* main.swift */,
+				4E4C5DCB19D0B74200891690 /* PickupTruck.swift */,
+				4E4C5DC919D0B6A900891690 /* HybridCar.swift */,
+				4E4C5DC719D0B66F00891690 /* TurboCar.swift */,
+			);
+			path = Cars;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E4C5DBA19D0B60F00891690 /* Cars */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E4C5DC219D0B60F00891690 /* Build configuration list for PBXNativeTarget "Cars" */;
+			buildPhases = (
+				4E4C5DB719D0B60F00891690 /* Sources */,
+				4E4C5DB819D0B60F00891690 /* Frameworks */,
+				4E4C5DB919D0B60F00891690 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cars;
+			productName = Cars;
+			productReference = 4E4C5DBB19D0B60F00891690 /* Cars */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E4C5DB319D0B60F00891690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Foxton Creative";
+				TargetAttributes = {
+					4E4C5DBA19D0B60F00891690 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 4E4C5DB619D0B60F00891690 /* Build configuration list for PBXProject "Cars" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E4C5DB219D0B60F00891690;
+			productRefGroup = 4E4C5DBC19D0B60F00891690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E4C5DBA19D0B60F00891690 /* Cars */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E4C5DB719D0B60F00891690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E4C5DBF19D0B60F00891690 /* main.swift in Sources */,
+				4E4C5DCC19D0B74200891690 /* PickupTruck.swift in Sources */,
+				4E4C5DCE19D0B95000891690 /* Car.swift in Sources */,
+				4E4C5DCA19D0B6A900891690 /* HybridCar.swift in Sources */,
+				4E4C5DC819D0B66F00891690 /* TurboCar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4E4C5DC019D0B60F00891690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E4C5DC119D0B60F00891690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4E4C5DC319D0B60F00891690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E4C5DC419D0B60F00891690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E4C5DB619D0B60F00891690 /* Build configuration list for PBXProject "Cars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4C5DC019D0B60F00891690 /* Debug */,
+				4E4C5DC119D0B60F00891690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E4C5DC219D0B60F00891690 /* Build configuration list for PBXNativeTarget "Cars" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E4C5DC319D0B60F00891690 /* Debug */,
+				4E4C5DC419D0B60F00891690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E4C5DB319D0B60F00891690 /* Project object */;
+}
